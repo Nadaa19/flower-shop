@@ -1,10 +1,10 @@
 @font-face {
  font-family: 'carratre';
- src: url(fonts/font/Carattere/Carattere-Regular.ttf) format('woff2');
+ src: url(../fonts/font/Carattere/Carattere-Regular.ttf) format('woff2');
 }
 @font-face {
  font-family: 'inter';
- src: url(fonts/font/Inter/static/Inter_18pt-Medium.ttf) format('woff2');
+ src: url(../fonts/font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf) format('woff2');
 }
 
 
@@ -579,7 +579,7 @@ main article img{
    cursor: pointer;
 }
 .home-bg{
-   background: url(./images/_-9-removebg-preview.png) no-repeat center;
+   background: url(../images/_-9-removebg-preview.png) no-repeat center;
      height: 600px;
    display: flex;
    flex-direction: column;

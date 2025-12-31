@@ -1,58 +1,58 @@
 const flowers = [
-  { id: 1, name: "Rose", color: "Red", price: 15, image: "./images/r1.jpg" ,count:1},
-  { id: 2, name: "Tulip", color: "Yellow", price: 10, image:"./images/ysix.jpg" ,count:1},
-  { id: 3, name: "Lily", color: "White", price: 18, image: "./images/w1.jpg" ,count:1},
-  { id: 4, name: "Sunflower", color: "Yellow", price: 12, image: "./images/yfour.jpg" ,count:1},
-  { id: 5, name: "Orchid", color: "Purple", price: 25, image: "./images/p1.jpg" ,count:1},
-  { id: 6, name: "Daisy", color: "White", price: 8, image: "./images/w2.jpg" ,count:1},
-  { id: 7, name: "Carnation", color: "Pink", price: 9, image: "./images/n1.jpg",count:1 },
-  { id: 8, name: "Lavender", color: "green", price: 14, image: "./images/g1.jpg" ,count:1},
-  { id: 9, name: "Jasmine", color: "White", price: 11, image: "./images/w3.jpg" ,count:1},
-  { id: 10, name: "Peony", color: "Pink", price: 20, image: "./images/n2.jpg" ,count:1},
+  { id: 1, name: "Rose", color: "Red", price: 15, image: "../images/r1.jpg" ,count:1},
+  { id: 2, name: "Tulip", color: "Yellow", price: 10, image:"../images/ysix.jpg" ,count:1},
+  { id: 3, name: "Lily", color: "White", price: 18, image: "../images/w1.jpg" ,count:1},
+  { id: 4, name: "Sunflower", color: "Yellow", price: 12, image: "../images/yfour.jpg" ,count:1},
+  { id: 5, name: "Orchid", color: "Purple", price: 25, image: "../images/p1.jpg" ,count:1},
+  { id: 6, name: "Daisy", color: "White", price: 8, image: "../images/w2.jpg" ,count:1},
+  { id: 7, name: "Carnation", color: "Pink", price: 9, image: "../images/n1.jpg",count:1 },
+  { id: 8, name: "Lavender", color: "green", price: 14, image: "../images/g1.jpg" ,count:1},
+  { id: 9, name: "Jasmine", color: "White", price: 11, image: "../images/w3.jpg" ,count:1},
+  { id: 10, name: "Peony", color: "Pink", price: 20, image: "../images/n2.jpg" ,count:1},
 
-  { id: 11, name: "Iris", color: "Blue", price: 16, image: "./images/b1.jpg" ,count:1},
-  { id: 12, name: "Chrysanthemum", color: "Orange", price: 13, image: "./images/o1.jpg",count:1 },
-  { id: 13, name: "Geranium", color: "Red", price: 10, image: "./images/r2.jpg" ,count:1},
-  { id: 14, name: "Hibiscus", color: "Red", price: 17, image: "./images/r3.jpg" ,count:1},
-  { id: 15, name: "Lotus", color: "Pink", price: 22, image: "./images/n3.jpg" ,count:1},
-  { id: 16, name: "Poppy", color: "Red", price: 12, image: "./images/r4.jpg" ,count:1},
-  { id: 17, name: "Freesia", color: "White", price: 14, image: "./images/w4.jpg" ,count:1},
-  { id: 18, name: "Gardenia", color: "White", price: 19, image: "./images/w5.jpg" ,count:1},
-  { id: 19, name: "Anemone", color: "Purple", price: 15, image: "./images/p2.jpg" ,count:1},
-  { id: 20, name: "Begonia", color: "Pink", price: 11, image: "./images/n4.jpg" ,count:1},
+  { id: 11, name: "Iris", color: "Blue", price: 16, image: "../images/b1.jpg" ,count:1},
+  { id: 12, name: "Chrysanthemum", color: "Orange", price: 13, image: "../images/o1.jpg",count:1 },
+  { id: 13, name: "Geranium", color: "Red", price: 10, image: "../images/r2.jpg" ,count:1},
+  { id: 14, name: "Hibiscus", color: "Red", price: 17, image: "../images/r3.jpg" ,count:1},
+  { id: 15, name: "Lotus", color: "Pink", price: 22, image: "../images/n3.jpg" ,count:1},
+  { id: 16, name: "Poppy", color: "Red", price: 12, image: "../images/r4.jpg" ,count:1},
+  { id: 17, name: "Freesia", color: "White", price: 14, image: "../images/w4.jpg" ,count:1},
+  { id: 18, name: "Gardenia", color: "White", price: 19, image: "../images/w5.jpg" ,count:1},
+  { id: 19, name: "Anemone", color: "Purple", price: 15, image: "../images/p2.jpg" ,count:1},
+  { id: 20, name: "Begonia", color: "Pink", price: 11, image: "../images/n4.jpg" ,count:1},
 
-  { id: 21, name: "Camellia", color: "Red", price: 18, image: "./images/r5.jpg" ,count:1},
-  { id: 22, name: "Cosmos", color: "Pink", price: 9, image: "./images/n5.jpg" ,count:1},
-  { id: 23, name: "Hyacinth", color: "Blue", price: 16, image: "./images/b2.jpg" ,count:1},
-  { id: 24, name: "Magnolia", color: "White", price: 21, image: "./images/w6.jpg" ,count:1},
-  { id: 25, name: "Marigold", color: "Orange", price: 8, image: "./images/o2.jpg" ,count:1},
-  { id: 26, name: "Narcissus", color: "Yellow", price: 13, image: "./images/ythree.jpg",count:1 },
-  { id: 27, name: "Oleander", color: "Pink", price: 14, image: "./images/n6.jpg" ,count:1},
-  { id: 28, name: "Petunia", color: "Purple", price: 10, image: "./images/p3.jpg" ,count:1},
-  { id: 29, name: "Ranunculus", color: "Red", price: 17, image: "./images/r6.jpg" ,count:1},
-  { id: 30, name: "Snapdragon", color: "Pink", price: 12, image: "./images/n7.jpg" ,count:1},
+  { id: 21, name: "Camellia", color: "Red", price: 18, image: "../images/r5.jpg" ,count:1},
+  { id: 22, name: "Cosmos", color: "Pink", price: 9, image: "../images/n5.jpg" ,count:1},
+  { id: 23, name: "Hyacinth", color: "Blue", price: 16, image: "../images/b2.jpg" ,count:1},
+  { id: 24, name: "Magnolia", color: "White", price: 21, image: "../images/w6.jpg" ,count:1},
+  { id: 25, name: "Marigold", color: "Orange", price: 8, image: "../images/o2.jpg" ,count:1},
+  { id: 26, name: "Narcissus", color: "Yellow", price: 13, image: "../images/ythree.jpg",count:1 },
+  { id: 27, name: "Oleander", color: "Pink", price: 14, image: "../images/n6.jpg" ,count:1},
+  { id: 28, name: "Petunia", color: "Purple", price: 10, image: "../images/p3.jpg" ,count:1},
+  { id: 29, name: "Ranunculus", color: "Red", price: 17, image: "../images/r6.jpg" ,count:1},
+  { id: 30, name: "Snapdragon", color: "Pink", price: 12, image: "../images/n7.jpg" ,count:1},
 
-  { id: 31, name: "Tuberose", color: "White", price: 20, image: "./images/w7.jpg",count:1 },
-  { id: 32, name: "Verbena", color: "Purple", price: 9, image: "./images/p4.jpg" ,count:1},
-  { id: 33, name: "Wisteria", color: "green", price: 23, image: "./images/g2.jpg" ,count:1},
-  { id: 34, name: "Zinnia", color: "Orange", price: 8, image: "./images/o3.jpg" ,count:1},
-  { id: 35, name: "Aster", color: "Blue", price: 11, image: "./images/b3.jpg",count:1 },
-  { id: 36, name: "Bluebell", color: "Blue", price: 10, image: "./images/b4.jpg" ,count:1},
-  { id: 37, name: "Buttercup", color: "Yellow", price: 7, image: "./images/yellowtwo.jpg" ,count:1},
-  { id: 38, name: "Clematis", color: "Purple", price: 18, image: "./images/p5.jpg" ,count:1},
-  { id: 39, name: "Delphinium", color: "Blue", price: 19, image: "./images/b5.jpg",count:1},
-  { id: 40, name: "Edelweiss", color: "White", price: 24, image: "./images/w8.jpg" ,count:1},
+  { id: 31, name: "Tuberose", color: "White", price: 20, image: "../images/w7.jpg",count:1 },
+  { id: 32, name: "Verbena", color: "Purple", price: 9, image: "../images/p4.jpg" ,count:1},
+  { id: 33, name: "Wisteria", color: "green", price: 23, image: "../images/g2.jpg" ,count:1},
+  { id: 34, name: "Zinnia", color: "Orange", price: 8, image: "../images/o3.jpg" ,count:1},
+  { id: 35, name: "Aster", color: "Blue", price: 11, image: "../images/b3.jpg",count:1 },
+  { id: 36, name: "Bluebell", color: "Blue", price: 10, image: "../images/b4.jpg" ,count:1},
+  { id: 37, name: "Buttercup", color: "Yellow", price: 7, image: "../images/yellowtwo.jpg" ,count:1},
+  { id: 38, name: "Clematis", color: "Purple", price: 18, image: "../images/p5.jpg" ,count:1},
+  { id: 39, name: "Delphinium", color: "Blue", price: 19, image: "../images/b5.jpg",count:1},
+  { id: 40, name: "Edelweiss", color: "White", price: 24, image: "../images/w8.jpg" ,count:1},
 
-  { id: 41, name: "Foxglove", color: "Pink", price: 15, image: "./images/n8.jpg" ,count:1},
-  { id: 42, name: "Gladiolus", color: "Red", price: 17, image: "./images/r7.jpg",count:1 },
-  { id: 43, name: "Hellebore", color: "Purple", price: 16, image: "./images/p6.jpg" ,count:1},
-  { id: 44, name: "Impatiens", color: "Red", price: 9, image: "./images/r8.jpg",count:1 },
-  { id: 45, name: "Jonquil", color: "Yellow", price: 12, image: "./images/yelloonn.jpg",count:1 },
-  { id: 46, name: "Kalanchoe", color: "Orange", price: 10, image: "./images/o4.jpg",count:1 },
-  { id: 47, name: "Lilac", color: "Purple", price: 14, image: "./images/p7.jpg" ,count:1},
-  { id: 48, name: "Mimosa", color: "Yellow", price: 11, image: "./images/yfive.jpg" ,count:1},
-  { id: 49, name: "Nasturtium", color: "Orange", price: 8, image: "./images/o5.jpg" ,count:1},
-  { id: 50, name: "Yarrow", color: "White", price: 13, image: "./images/w9.jpg" ,count:1}
+  { id: 41, name: "Foxglove", color: "Pink", price: 15, image: "../images/n8.jpg" ,count:1},
+  { id: 42, name: "Gladiolus", color: "Red", price: 17, image: "../images/r7.jpg",count:1 },
+  { id: 43, name: "Hellebore", color: "Purple", price: 16, image: "../images/p6.jpg" ,count:1},
+  { id: 44, name: "Impatiens", color: "Red", price: 9, image: "../images/r8.jpg",count:1 },
+  { id: 45, name: "Jonquil", color: "Yellow", price: 12, image: "../images/yelloonn.jpg",count:1 },
+  { id: 46, name: "Kalanchoe", color: "Orange", price: 10, image: "../images/o4.jpg",count:1 },
+  { id: 47, name: "Lilac", color: "Purple", price: 14, image: "../images/p7.jpg" ,count:1},
+  { id: 48, name: "Mimosa", color: "Yellow", price: 11, image: "../images/yfive.jpg" ,count:1},
+  { id: 49, name: "Nasturtium", color: "Orange", price: 8, image: "../images/o5.jpg" ,count:1},
+  { id: 50, name: "Yarrow", color: "White", price: 13, image: "../images/w9.jpg" ,count:1}
 ];
 
 let shopcon = document.querySelector('.shop-con');
@@ -160,10 +160,10 @@ function applyFilters() {
   // لو فيه منتجات، نعرضها
   renderCards(result);
 }
-
+if (colorFilter && priceFilter) {
 colorFilter.addEventListener("change", applyFilters);
 priceFilter.addEventListener("change", applyFilters);
-
+}
 renderCards(flowers);
 
 
