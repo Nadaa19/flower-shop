@@ -226,7 +226,6 @@ main article var select:focus{
   border: 2px solid var(--dark_green);
   transform: scale(1.1);
 }
-main article var select option{}
 main article img{
    width: 70px;
    height: 70px;
@@ -405,7 +404,6 @@ main article img{
    border-radius: 50%;
 
 }
-.shop-con .cart-item .cart-item-data{}
 .shop-con .cart-item .cart-item-data b{
    font-family: var(--inter-font);
    font-size: 16px;
@@ -431,7 +429,6 @@ main article img{
    cursor: pointer;
 
 }
-.shop-con .cart-item .count p{}
 .shop-con .cart-item .count .minus{
       border: 1px solid var(--dark_green);
    padding: 5px;
